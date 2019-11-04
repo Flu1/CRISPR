@@ -1,7 +1,7 @@
 barcodecco=function(sam,barcodelist)
 {
-  #####This program will analyse barcodes for Ecco.  It requires a sam file of sequences and the list of barcodes that you are interested in.
-#####You will need to switch th matchseq and the refseq to look at ANP32A alleles as opposed to ANP32B alleles
+  #####This program will analyse barcodes for Ecco Staller's paper.  It requires a sam file of sequences and the list of barcodes that you are interested in.
+#####You will need to switch the matchseq and the refseq to look at ANP32A alleles as opposed to ANP32B alleles
   
   if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
